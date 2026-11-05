@@ -8,9 +8,9 @@ from sklearn.model_selection import train_test_split
 
 # ==================== 1. Reload data and model ====================
 # Please ensure these paths match exactly with those set when you ran the model previously
-DATA_PATH = "/Users/sunzhuo/Sun/data.xlsx"
-OUTPUT_DIR = "/Users/sunzhuo/Sun/MLP/NSGA2_stacking_results"
-MODEL_PATH = os.path.join(OUTPUT_DIR, "best_nsga2_stacking_model.joblib")
+DATA_PATH = ""
+OUTPUT_DIR = ""
+MODEL_PATH = os.path.join(OUTPUT_DIR, ".joblib")
 
 # Read raw data
 df = pd.read_excel(DATA_PATH)
