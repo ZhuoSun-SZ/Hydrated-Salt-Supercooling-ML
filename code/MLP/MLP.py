@@ -44,8 +44,8 @@ warnings.filterwarnings("ignore")
 RANDOM_STATE = 42
 N_SPLITS = 10
 
-DATA_PATH = "/Users/sunzhuo/Sun/0.1.xlsx"
-OUTPUT_DIR = "/Users/sunzhuo/Sun/MLP/NSGA2_stacking_results"
+DATA_PATH = "
+OUTPUT_DIR = ""
 
 TEST_SIZE = 0.20
 N_ITER_BASE_SEARCH = 100
